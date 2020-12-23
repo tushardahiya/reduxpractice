@@ -1,0 +1,11 @@
+createStore se ke store banao fir usse apni app pr wrap krdo jahan jahanchahie vo 
+fir kya karo uss provider/wrapper ko store=apna store as a prop dedo jisse ki tumhara store puuri app ko mil jae
+
+ab agr kisi component ko vo state chahhie jo store me hai toh fir usse apne aap ko connect karna padega jo ki vo connect() use krke karr sakta h jisme parameter vo ek const(usually naam mapstateto props rakhna kyonki hum yahi karr rahe hain state to props pr map krr rhe hain) ko de sakta h jo ki pass on hoga uss component ko 
+ab uss constant me me main connect se sttate lekr pass karr sakta hun aur uss state me se apna data nikal kar ek var ko de sakta hun jo ki fir component me as a prop use ho sakta h 
+
+ab baari ayi reducer ki 
+ ye ek simple function h jo ki do cheeze parameter me leta h tumhara abhi vala state aur tumhe uss pr kya action krna h 
+aur fir uss pr kuch logic hum apna karr sakte hain and end me naya updated state vapas return karr sakte hain
+ab baat ayi uss initial case ki jab purana  state exist hi nahi kr rha hoga toh uspr action kya karenge. us case me hum ek const me apna initial state pehle se bana ke rakhenge jisme initial dtata hoga aur parameter state ko =initialstate krdenge jiss se ki first time vo humare initialstate ko utha le 
+
