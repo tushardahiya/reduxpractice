@@ -17,8 +17,9 @@ const reducer = (state= initialState , action) => {
                 ...state,
                 results:updatedResults
             }
+        default:
+            return state;
     }
-    return state;
 }
 
 export default reducer;
