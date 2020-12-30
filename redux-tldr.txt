@@ -1,7 +1,7 @@
 createStore se ke store banao fir usse apni app pr wrap krdo jahan jahanchahie vo 
 fir kya karo uss provider/wrapper ko store=apna store as a prop dedo jisse ki tumhara store puuri app ko mil jae
 
-ab agr kisi component ko vo state chahhie jo store me hai toh fir usse apne aap ko connect karna padega jo ki vo connect() use krke karr sakta h jisme parameter vo ek const(usually naam mapstateto props rakhna kyonki hum yahi karr rahe hain state to props pr map krr rhe hain) ko de sakta h jo ki pass on hoga uss component ko 
+ab agr kisi component ko vo state chahhie jo store me hai toh fir usse apne aap ko connect karna padega jo ki vo connect() use krke karr sakta h jisme parameter vo ek const(usually naam mapstatetoprops rakhna kyonki hum yahi karr rahe hain state to props pr map krr rhe hain) ko de sakta h jo ki pass on hoga uss component ko 
 ab uss constant me me main connect se sttate lekr pass karr sakta hun aur uss state me se apna data nikal kar ek var ko de sakta hun jo ki fir component me as a prop use ho sakta h 
 
 ab baari ayi reducer ki 
